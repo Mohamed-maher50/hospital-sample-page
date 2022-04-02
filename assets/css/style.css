@@ -69,6 +69,42 @@ body{
   width: max-content;
   margin: 50px auto;
 }
+
+/* contact us */
+.contactUs input,textarea{
+  background-color: #f8f8f8;
+  color: #495057;
+  border: 1px solid #495057;
+  padding: 10px;
+  outline: none;
+  transition: .5s;
+}
+.contactUs input:focus,textarea:focus{
+  border: 1px solid var(--main-color);
+}
+/* /contact us */
+/* footer */
+.footer{
+  background-color: #444;
+  color: #fff;
+}
+.footer ul{
+  list-style: none;
+}
+.footer ul li{
+  padding: 5px 0px;
+} 
+.footer ul li a{
+  color: #fff;
+}
+.footer ul:nth-of-type(1) li{
+ 
+  border-bottom: 2px solid #6A6A6A;
+}
+.footer ul li:last-child{
+  border: none;
+}
+/* /footer */
 /* global component */
 .main-button{
   width: max-content;
@@ -93,8 +129,10 @@ body{
 
 }
 .subtitle{
+
+  width: fit-content;
   margin: auto;
-  width: max-content;
+ 
 }
 .overlay{
   
@@ -116,4 +154,5 @@ body{
 }
 .setSection{
   padding: 50px 0;
+
 }
